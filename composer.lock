@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5feffa579f0df23de631869ced98e6dc",
+    "content-hash": "bf26edfbfeba2cb3aa9e1bd253f3d69a",
     "packages": [
         {
             "name": "fig/http-message-util",
@@ -731,64 +731,6 @@
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
-            "name": "rbdwllr/reallysimplejwt",
-            "version": "4.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/RobDWaller/ReallySimpleJWT.git",
-                "reference": "2b92aba98c71cfc4046dea895659450bfce530ed"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/RobDWaller/ReallySimpleJWT/zipball/2b92aba98c71cfc4046dea895659450bfce530ed",
-                "reference": "2b92aba98c71cfc4046dea895659450bfce530ed",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.4.0"
-            },
-            "require-dev": {
-                "infection/infection": "^0.20",
-                "phpbench/phpbench": "^1.0",
-                "phploc/phploc": "^7.0",
-                "phpmd/phpmd": "^2.9",
-                "phpstan/phpstan": "^0.12",
-                "phpunit/phpunit": "^9.5",
-                "sebastian/phpcpd": "^6.0",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "ReallySimpleJWT\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rob Waller",
-                    "email": "rdwaller1984@gmail.com"
-                }
-            ],
-            "description": "A really simple library to generate user authentication JSON Web Tokens.",
-            "keywords": [
-                "Authentication",
-                "json",
-                "json web tokens",
-                "jwt",
-                "php",
-                "tokens"
-            ],
-            "support": {
-                "issues": "https://github.com/RobDWaller/ReallySimpleJWT/issues",
-                "source": "https://github.com/RobDWaller/ReallySimpleJWT/tree/4.0.3"
-            },
-            "time": "2021-07-12T10:12:22+00:00"
-        },
-        {
             "name": "slim/psr7",
             "version": "1.5",
             "source": {
@@ -1150,16 +1092,16 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.23.1",
+            "version": "v1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be"
+                "reference": "57b712b08eddb97c762a8caa32c84e037892d2e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/1100343ed1a92e3a38f9ae122fc0eb21602547be",
-                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/57b712b08eddb97c762a8caa32c84e037892d2e9",
+                "reference": "57b712b08eddb97c762a8caa32c84e037892d2e9",
                 "shasum": ""
             },
             "require": {
@@ -1213,7 +1155,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.23.1"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.24.0"
             },
             "funding": [
                 {
@@ -1229,7 +1171,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-07-28T13:41:28+00:00"
+            "time": "2021-09-13T13:58:33+00:00"
         },
         {
             "name": "tuupola/callable-handler",
