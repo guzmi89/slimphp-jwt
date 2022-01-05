@@ -13,3 +13,10 @@ Segundo instalamos las dependencias con composer
 ```
 composer update
 ```
+
+## Configuración :ok_hand:
+Sólo debemos **renombrar el archivo .env.example a .env** y dentro ajustar el valor de la variables.
+
+## Uso :runner:
+La raíz del API es la carpeta public, en index.php ya disponemos del endpoint /films como endpoint de ejemplo haciendo una consulta a la base de datos mysql. :closed_book:
+
