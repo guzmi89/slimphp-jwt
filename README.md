@@ -23,5 +23,5 @@ La raíz del API es la carpeta public, en index.php ya disponemos del endpoint /
 ## Construido con 🛠️
 * [SlimPhp](https://github.com/slimphp/Slim) - El framework usado
 * [Middleware JWT](https://github.com/tuupola/slim-jwt-auth) - PSR-7 and PSR-15 JWT Authentication Middleware
+* [Middleware CORS](https://github.com/tuupola/cors-middleware) - PSR-7 and PSR-15 CORS Middleware
 * [phpdotenv](https://github.com/vlucas/phpdotenv) - Librería para el manejo de variables globales de PHP
-
