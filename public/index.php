@@ -74,6 +74,7 @@ $app->get('/films', function (Request $request, Response $response, $args) {
 				"id"=>$row['id'],
 				"title"=>$row['title'],
 				"year"=>$row['year'],
+                "description"=>$row['description'],
 				"image"=>$row['image']
 			];
 			$myArray[] = $fila;
