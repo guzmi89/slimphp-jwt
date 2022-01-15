@@ -88,6 +88,25 @@ $app->get('/films', function (Request $request, Response $response, $args) {
     return $response;
 });
 
+$app->get('/film/{id}', function (Request $request, Response $response, $args) {
+	$sql = "SELECT * FROM films WHERE id=$args[id]";
+	$resultado = getConnection($sql);
+	foreach($resultado as $row){
+
+		$fila = [
+			"id"=>$row['id'],
+			"title"=>$row['title'],
+			"year"=>$row['year'],
+            "description"=>$row['description'],
+            "image"=>$row['image']
+		];
+		$myArray[] = $fila;
+	}
+	$datos = json_encode($myArray);
+	$response->getBody()->write($datos);
+    return $response;
+});
+
 $app->run();
 
 ?>
